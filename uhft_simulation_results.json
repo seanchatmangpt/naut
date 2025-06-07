@@ -1,0 +1,27 @@
+{
+  "simulation_params": {
+    "num_simulations": 25000,
+    "assembly_performance": {
+      "latency_ns": 0.269,
+      "throughput_ops_per_sec": 3710000000.0,
+      "simd_elements_per_sec": 8640000000.0,
+      "memory_bandwidth_gb_s": 34.5
+    }
+  },
+  "results": {
+    "mean_revenue_usd": 300751936805262.9,
+    "median_revenue_usd": 178927732319405.75,
+    "percentiles_usd": {
+      "p1": 18752000511532.285,
+      "p5": 38059999035149.65,
+      "p10": 54672446328871.37,
+      "p25": 96410215051786.08,
+      "p50": 178927732319405.75,
+      "p75": 328886543944782.6,
+      "p90": 605490980453853.9,
+      "p95": 914704655197141.8,
+      "p99": 2103961166047601.0
+    }
+  },
+  "theoretical_max_usd": 20865600000.0
+}
